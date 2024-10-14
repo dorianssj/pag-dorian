@@ -1,0 +1,47 @@
+.padre {
+    padding: 5px;
+    background-color: azure;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "cont1 accordion bandera"
+        "foot foot foot";
+}
+.padre .header {
+    grid-area: header;
+}
+
+.padre .nav {
+    grid-area: nav;
+}
+
+.padre .cont1 {
+    grid-area: cont1;
+}
+
+.padre .accordion {
+    grid-area: accordion;
+}
+
+.padre .bandera {
+    grid-area: bandera;
+
+}
+
+.padre .foot {
+    grid-area: foot;
+}
+.accordion
+{
+    background-color:azure;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+}
+.mi-imagen {
+    width: 500px; /* Ajusta el tamaño en píxeles */
+    height: 300px; /* Mantiene la proporción de la imagen */
+}
